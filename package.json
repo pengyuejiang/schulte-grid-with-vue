@@ -1,0 +1,22 @@
+{
+  "name": "schulte-grid-with-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenewpyjiang/schulte-grid-with-vue.git"
+  },
+  "author": "Pengyue Jiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thenewpyjiang/schulte-grid-with-vue/issues"
+  },
+  "homepage": "https://github.com/thenewpyjiang/schulte-grid-with-vue#readme",
+  "devDependencies": {
+    "electron": "^6.0.12"
+  }
+}

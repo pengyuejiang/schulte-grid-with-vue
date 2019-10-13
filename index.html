@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Schulte Grid</title>
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" type ="text/css" href="style.css">
+        
+    </head>
+    <body>
+        <!-- Title -->
+        <h1>Schulte Grid</h1>
+        <!-- Function bar -->
+        <div id="navbar">
+            <button><a href="index.html">New Game</a></button>
+            <button><a href="index.html">Easy</a></button>
+            <button><a href="medium.html">Medium</a></button>
+            <button><a href="hard.html">Hard</a></button>
+        </div>
+        <!-- Body -->
+        <div id="body">
+            <!-- The grid -->
+            <div id="grid">
+                <table cellspacing="0">
+                    <tr v-for="i in difficulty">
+                        <td v-for="j in difficulty">
+                            {{numSeries[difficulty * (i - 1) + (j - 1)]}}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="footer">
+                <p>Instructions: Schulte Grid is a concentration exercise. To succeed, the player has to click numbers starting with 1 in ascending order as fast as possible.</p>
+            </div>
+            <!-- Import Vue.js -->
+            <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+            <!-- Load scripts last -->
+            <script type="text/javascript" src="script.js"></script>
+        </div>
+    </body>
+</html>

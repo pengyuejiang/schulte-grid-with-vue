@@ -1,0 +1,96 @@
+body {
+    /* Set text&font properties */
+    font-family: Avenir;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    /* Set margin */
+    margin: 0;
+    background-color: burlywood;
+}
+
+h1 {
+    background-color: darkseagreen;
+    margin: 0;
+    padding: 20px 0;
+}
+
+div {
+    /* In order to center things, */
+    /* max-width and margin property has to present. */
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    /* Set the table to center */
+    margin: 25px auto;
+
+    padding: 0;
+    border: 2px solid white;
+    font-size: 1.5em;
+}
+
+td {
+    width: 48px;
+    height: 48px;
+    padding: 4px;
+    margin: 0;
+    border: 2px solid white;
+}
+
+button {
+    /* Disable default properties */
+    border: none;
+	background: none;
+    outline: none;
+    padding: 5px;
+    font-size: inherit;
+
+    color: darkseagreen;
+    height: 100%;
+
+    /* Animation */
+    /* Refers to transit into properties in .button:hover */
+    transition: all 0.5s;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    color: white;
+    background-color: darkseagreen;
+}
+
+.done {
+    color: lawngreen;
+    /* Animation */
+    transition: color 0.5s;
+}
+
+.vanish {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#navbar {
+    background-color: white;
+    height: 40px;
+
+    /* Override inherited properties */
+    max-width: 100%;
+}
+
+#message {
+    font-size: 4em;
+    margin: 0;
+}
+
+#highlight {
+    color: lawngreen;
+}
