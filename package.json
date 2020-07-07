@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/thenewpyjiang/schulte-grid-with-vue#readme",
   "devDependencies": {
-    "electron": "^6.0.12"
+    "electron": "^9.1.0"
   }
 }
